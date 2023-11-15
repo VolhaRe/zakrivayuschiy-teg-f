@@ -4,3 +4,48 @@
 ✦ theme-light — класс светлой темы
 ✦ не забудьте описать стили для изменения темы через медизапрос пользовательских предпочтений
 */
+
+
+:root.theme-light {
+    --main-font-family: 'Inter';
+    --accent-font-family: 'PressStart2P';
+    --main-color: #000000;
+    --bg-color: #fff;
+    --grad-color: #d3d3d3;
+    --grad-color-from: #e7e7e7;
+    --grad-color-to: #1a1a1a;
+    --grad-height: 51%;
+    --accent-font-weight: 700;
+    --main-font-weight: 400;
+    --contour-color:  #FF0000;
+    --blend-color: #fff;
+}
+
+
+@media (prefers-color-scheme: dark) {
+:root{
+    --main-color:#00CC14;
+    --bg-color:#000;
+    --grad-color: #000;
+    --grad-color-from: #007f0c;
+    --grad-color-to: #004306;
+    --grad-height: 50%;
+    --accent-font-weight: 785;
+    --main-font-weight: 465;
+    --contour-color:  #FF0000;
+    --blend-color: #00cc14;
+}
+}
+
+:root.theme-dark {
+    --main-color:#00CC14;
+    --bg-color:#000;
+    --grad-color: #000;
+    --grad-color-from: #007f0c;
+    --grad-color-to: #004306;
+    --grad-height: 50%;
+    --accent-font-weight: 785;
+    --main-font-weight: 465;
+    --contour-color:  #FF0000;
+    --blend-color: #00cc14;
+}
