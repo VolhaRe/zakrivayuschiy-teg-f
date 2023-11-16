@@ -25,16 +25,20 @@
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
-    background-image: repeating-linear-gradient(to right,
+    background-image: repeating-linear-gradient(
+            to right,
             var(--grad-color),
             var(--grad-color) 2px,
             transparent 2px,
-            transparent 4px),
-        repeating-linear-gradient(to bottom,
+            transparent 4px
+        ),
+        repeating-linear-gradient(
+            to bottom,
             var(--grad-color),
             var(--grad-color) 2px,
             transparent 2px,
-            transparent 4px),
+            transparent 4px
+        ),
         linear-gradient(var(--grad-color-from), var(--grad-color-to) 100%);
 }
 
@@ -159,20 +163,20 @@
     font-weight: (--accent-font-weight);
     color: var(--main-color);
     font-size: 18px;
-    border-bottom: 4px solid var(--main-color);
+    border-bottom: 2px solid var(--main-color);
     line-height: 35px;
     padding: 0 10px;
 }
 
 .card_img-box {
     width: 100%;
-    height: clamp(23.188rem, 16.035rem + 30.516vw, 43.5rem);
-    border-bottom: 4px solid var(--main-color);
+    height: clamp(23.438rem, 16.373rem + 30.141vw, 43.5rem);
+    border-bottom: 2px solid var(--main-color);
     position: relative;
 }
 
 .card_img {
-    width: 100%;
+    height: 100%;
     object-fit: cover;
     overflow: hidden;
 }
@@ -194,7 +198,10 @@
     z-index: 1;
 }
 
-@supports ((text-stroke: 1px var(--bg-color)) or (-webkit-text-stroke: 1px var(--bg-color))) {
+@supports (
+    (text-stroke: 1px var(--bg-color)) or
+        (-webkit-text-stroke: 1px var(--bg-color))
+) {
     .label {
         -webkit-text-stroke: 1px var(--bg-color);
         text-stroke: 1px var(--bg-color);
