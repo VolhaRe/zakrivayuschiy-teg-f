@@ -20,6 +20,7 @@
     font-family: var(--main-font-family), sans-serif;
     font-variation-settings: "wdth" var(--main-font-weight),
         "wdth" var(--accent-font-weight);
+        font-variation-settings: 400 785;   
     font-size: 18px;
     background-color: var(--bg-color);
     background-position: center;
