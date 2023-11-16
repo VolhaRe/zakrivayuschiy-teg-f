@@ -18,7 +18,8 @@
     min-inline-size: 320px;
     min-block-size: 100dvb;
     font-family: var(--main-font-family), serif;
-    font-variation-settings: 'wght' var(--main-font-weight),'wght'  var(--accent-font-weight);  
+    font-variation-settings: "wght" var(--main-font-weight),
+        "wght" var(--accent-font-weight);
     font-size: 18px;
     background-color: var(--bg-color);
     background-position: center;
@@ -199,7 +200,7 @@
 
 @supports (
     (text-stroke: 1px var(--bg-color)) or
-    (-webkit-text-stroke: 1px var(--bg-color))
+        (-webkit-text-stroke: 1px var(--bg-color))
 ) {
     .label {
         -webkit-text-stroke: 1px var(--bg-color);
