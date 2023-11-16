@@ -524,11 +524,6 @@
     .card_title {
         line-height: 23px;
         padding: 4px 10px;
-        border-bottom: 4px solid var(--main-color);
-    }
-
-    .card_img-box {
-        border-bottom: 4px solid var(--main-color);
     }
 
     .floppy_button {
