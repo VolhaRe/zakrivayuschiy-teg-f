@@ -25,20 +25,16 @@
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
-    background-image: repeating-linear-gradient(
-            to right,
+    background-image: repeating-linear-gradient(to right,
             var(--grad-color),
             var(--grad-color) 2px,
             transparent 2px,
-            transparent 4px
-        ),
-        repeating-linear-gradient(
-            to bottom,
+            transparent 4px),
+        repeating-linear-gradient(to bottom,
             var(--grad-color),
             var(--grad-color) 2px,
             transparent 2px,
-            transparent 4px
-        ),
+            transparent 4px),
         linear-gradient(var(--grad-color-from), var(--grad-color-to) 100%);
 }
 
@@ -198,10 +194,7 @@
     z-index: 1;
 }
 
-@supports (
-    (text-stroke: 1px var(--bg-color)) or
-        (-webkit-text-stroke: 1px var(--bg-color))
-) {
+@supports ((text-stroke: 1px var(--bg-color)) or (-webkit-text-stroke: 1px var(--bg-color))) {
     .label {
         -webkit-text-stroke: 1px var(--bg-color);
         text-stroke: 1px var(--bg-color);
@@ -524,6 +517,11 @@
     .card_title {
         line-height: 23px;
         padding: 4px 10px;
+        border-bottom: 4px solid var(--main-color);
+    }
+
+    .card_img-box {
+        border-bottom: 4px solid var(--main-color);
     }
 
     .floppy_button {
