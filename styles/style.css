@@ -199,7 +199,7 @@
 
 @supports (
     (text-stroke: 1px var(--bg-color)) or
-        (-webkit-text-stroke: 1px var(--bg-color))
+    (-webkit-text-stroke: 1px var(--bg-color))
 ) {
     .label {
         -webkit-text-stroke: 1px var(--bg-color);
