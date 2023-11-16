@@ -18,8 +18,7 @@
     min-inline-size: 320px;
     min-block-size: 100dvb;
     font-family: var(--main-font-family), serif;
-    font-variation-settings: 'wght' var(--main-font-weight),
-    'wght'  var(--accent-font-weight);  
+    font-variation-settings: 'wght' var(--main-font-weight),'wght'  var(--accent-font-weight);  
     font-size: 18px;
     background-color: var(--bg-color);
     background-position: center;
