@@ -159,7 +159,7 @@
     font-weight: (--accent-font-weight);
     color: var(--main-color);
     font-size: 18px;
-    border-bottom: 2px solid var(--main-color);
+    border-bottom: 4px solid var(--main-color);
     line-height: 35px;
     padding: 0 10px;
 }
@@ -167,7 +167,7 @@
 .card_img-box {
     width: 100%;
     height: clamp(23.188rem, 16.035rem + 30.516vw, 43.5rem);
-    border-bottom: 2px solid var(--main-color);
+    border-bottom: 4px solid var(--main-color);
     position: relative;
 }
 
