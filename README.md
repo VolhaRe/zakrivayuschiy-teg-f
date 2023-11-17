@@ -1,3 +1,4 @@
 # zakrivayuschiy-teg-f
 Проект "Закрывающий тег"
-https://volhare.github.io/zakrivayuschiy-teg-f/
+тесты не пропускают ссылку на опубликованный сайт, поэтому оставляю эту
+https://github.com/VolhaRe/zakrivayuschiy-teg-f.git
