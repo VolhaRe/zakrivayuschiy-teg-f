@@ -237,8 +237,9 @@
     inline-size: 42px;
     block-size: 38px;
     border: none;
+    padding-block-start: 2px;
     margin-inline-end: 5px;
-    margin-block-end: 3px;
+    margin-block-end: 4px;
     margin-block-start: 4px;
     background-color: transparent;
     transition: border 0.3s ease;
@@ -306,8 +307,8 @@
 .like-icon {
     fill: var(--main-color);
     cursor: pointer;
-    block-size: 39px;
-    inline-size: 37px;
+    block-size: 37px;
+    inline-size: 40px;
 }
 
 .footer__button-box_floppy {
