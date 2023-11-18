@@ -241,7 +241,7 @@
     margin-block-end: 3px;
     margin-block-start: 4px;
     background-color: transparent;
-    transition: box-shadow 0.3s ease;
+    transition: border 0.3s ease;
 }
 
 .card__icon-button:focus {
@@ -250,7 +250,6 @@
 
 .card__icon-button:focus-visible {
     border: 2px solid var(--main-color);
-    box-shadow: 2px 2px 0 var(--main-color);
 }
 
 .card__like-button {
@@ -358,7 +357,7 @@
 
 .core {
     fill: transparent;
-    transition: fill 0.3s linear 0.03s alternate;
+    transition: fill 0.3s linear 0.03s;
 }
 
 .like-icon:hover .main-body {
