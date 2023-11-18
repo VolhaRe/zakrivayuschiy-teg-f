@@ -17,7 +17,7 @@
 .page {
     min-inline-size: 320px;
     min-block-size: 100dvb;
-    font-family: var(--main-font-family), var(--main-fm-second);
+    font-family: var(--main-font-family);
     font-variation-settings: "wght" var(--main-font-weight);
     font-size: 18px;
     background-color: var(--bg-color);
@@ -66,7 +66,7 @@
 
 .logo__link {
     text-decoration: none;
-    font-family: var(--accent-font-family), var(--accent-fm-second);
+    font-family: var(--accent-font-family);
     text-transform: uppercase;
     font-size: clamp(3.063rem, 2.71rem + 1.502vw, 4.063rem);
     font-weight: 400;
@@ -74,7 +74,7 @@
 }
 
 .header__title {
-    font-family: var(--accent-font-family), var(--accent-fm-second);
+    font-family: var(--accent-font-family);
     text-transform: uppercase;
     font-size: clamp(0.875rem, 0.677rem + 0.845vw, 1.438rem);
     font-weight: var(--main-font-weight);
@@ -136,7 +136,7 @@
 }
 
 .theme-menu__item {
-    font-family: var(--accent-font-family), var(--accent-fm-second);
+    font-family: var(--accent-font-family);
     text-transform: uppercase;
     font-size: 14px;
     font-weight: 400;
@@ -159,7 +159,7 @@
 }
 
 .card__title {
-    font-family: var(--main-font-family), var(--main-fm-second);
+    font-family: var(--main-font-family);
     font-weight: var(--accent-font-weight);
     color: var(--main-color);
     font-size: 18px;
@@ -185,7 +185,7 @@
 }
 
 .card__label {
-    font-family: var(--accent-font-family), var(--accent-fm-second);
+    font-family: var(--accent-font-family);
     font-size: 14px;
     color: var(--main-color);
     -webkit-text-stroke: 1px;
@@ -294,7 +294,7 @@
 }
 
 .button__text {
-    font-family: var(--accent-font-family), var(--accent-fm-second);
+    font-family: var(--accent-font-family);
     font-weight: var(--main-font-weight);
     color: var(--blend-color);
     font-size: 14px;
@@ -429,7 +429,7 @@
 }
 
 .text_modal {
-    font-family: var(--accent-font-family), var(--accent-fm-second);
+    font-family: var(--accent-font-family);
     font-weight: var(--main-font-weight);
     color: var(--main-color);
     font-size: 14px;
@@ -445,7 +445,7 @@
 }
 
 .button_close-dialog {
-    font-family: var(--accent-font-family), var(--accent-fm-second);
+    font-family: var(--accent-font-family);
     font-weight: var(--main-font-weight);
     color: var(--main-color);
     background-color: var(--bg-color);

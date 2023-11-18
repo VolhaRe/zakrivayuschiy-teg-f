@@ -1,9 +1,7 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
 :root {
-    --main-font-family: "Inter";
-    --main-fm-second: sans-serif;
-    --accent-font-family: "PressStart2P";
-    --accent-fm-second: fantasy;
+    --main-font-family: "Inter", sans-serif;
+    --accent-font-family: "PressStart2P", fantasy;
     --main-color: #000000;
     --bg-color: #fff;
     --grad-color: #d3d3d3;
